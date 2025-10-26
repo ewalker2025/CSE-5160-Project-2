@@ -1,1 +1,8 @@
+import pandas as pd
+import numpy as np
+import os
 
+#Load dataset
+dataset = pd.read_csv('dataset.csv')
+
+print(dataset.head())
